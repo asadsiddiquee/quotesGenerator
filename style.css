@@ -1,0 +1,52 @@
+body {
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    font-family:Georgia, 'Times New Roman', 'Times', 'serif';
+    
+}
+
+.quoteHolder {
+background-color: rgb(160, 236, 191);
+border: 1px solid rgb(240, 240, 240);
+flex: 0 0 90%;
+border-radius: 10px;
+
+
+}
+
+
+#quotes {
+    background: rgb(241, 241, 241);
+    padding: 2.5rem 0.5rem;
+    margin: 2.5rem;
+    color: rgb(10, 37, 26);
+    border-left: 10px solid rgb(2, 2, 2);
+   
+   
+  
+}
+
+#quotes-active{
+    background: rgb(241, 241, 241);
+    padding: 2.5rem 0.5rem;
+    margin: 2.5rem;
+    color: rgb(10, 37, 26);
+    border-left: 10px solid rgb(2, 2, 2);
+   
+    
+}
+
+#btnQ {
+    background-color: rgb(255, 255, 255);
+    border-radius: 5px;
+    cursor: pointer;
+    outline: none;
+    padding: 10px;
+    color: rgb(245, 40, 40);
+    font-size: 1rem;
+    font-weight: bold;
+    border: 1px solid rgb(178, 214, 197);
+}
